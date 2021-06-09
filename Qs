@@ -6,3 +6,16 @@ using namespace std;
 
 int main()
 {
+ cout<<"Which Percy Jackson and the Olympians character are you?"<<endl;
+ 
+ cout<<"First question: What is your favourite colour?"<<endl;
+ cout<<"a) Blue  b) Red  c) Green"<<endl;
+
+ cout<<"Second question: Which word describes you the best?"<<endl;
+ cout<<"a) Loyal  b) Smart  c) Friendly"<<endl;
+ 
+ cout<<"Third question: What is your favourite food?"<<endl;
+ cout<<"a) cookies  b) 
+ 
+ return 0;
+}
