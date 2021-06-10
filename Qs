@@ -1,4 +1,3 @@
-  
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -8,14 +7,25 @@ int main()
 {
  cout<<"Which Percy Jackson and the Olympians character are you?"<<endl;
  
+ int guess;
+ int percy, annabeth, grover;
+ 
  cout<<"First question: What is your favourite colour?"<<endl;
  cout<<"a) Blue  b) Red  c) Green"<<endl;
-
+ cin>>guess;
+ if (guess == a) { 
+ 
+ 
+ cout<<"Third question: What is your favourite food?"<<endl;
+ cout<<"a) Cookies  b) Burgers  c) Enchiladas"<<endl;
+ 
  cout<<"Second question: Which word describes you the best?"<<endl;
  cout<<"a) Loyal  b) Smart  c) Friendly"<<endl;
  
- cout<<"Third question: What is your favourite food?"<<endl;
- cout<<"a) cookies  b) 
+ cout<<"What is your favourite music?"<<endl;
+ cout<<"a) Rock  b) Classical   c) Inspirational, instrumental pieces."<<endl;
+ 
+ 
  
  return 0;
 }
