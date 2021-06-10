@@ -52,7 +52,7 @@ int main()
  cout<<" "<<endl;
 
  cout<<"Forth question: What is your favourite music?"<<endl;
- cout<<"1) Rock  2) Classical   3) Inspirational, instrumental pieces."<<endl;
+ cout<<"1) Rock  2) Classical   3) Inspirational, instrumental pieces"<<endl;
  int guess4;
  cin>>guess4;
  if (guess4 == 1) {
@@ -64,8 +64,84 @@ int main()
  }
  cout<<" "<<endl;
 
- //cout<<"Fifth question: What is your favourite music?"<<endl;
- //cout<<"1) Rock  2) Classical   3) Inspirational, instrumental pieces."<<endl;
+ cout<<"Fifth question: What power would you choose?"<<endl;
+ //cout<<"1) Controling water  2) Making good life decisions   3) "<<endl;
+ int guess5;
+ cin>>guess5;
+ if (guess5 == 1) {
+ percy = percy + 1;
+ } else if (guess5 == 2) {
+ annabeth = annabeth + 1;
+ } else {
+ grover = grover + 1;
+ }
+ cout<<" "<<endl;
+
+ cout<<"Sixth question: What is your favourite animal?"<<endl;
+ cout<<"1) Horse  2) Owl   3) I love all animals"<<endl;
+ int guess6;
+ cin>>guess6;
+ if (guess6 == 1) {
+ percy = percy + 1;
+ } else if (guess6 == 2) {
+ annabeth = annabeth + 1;
+ } else {
+ grover = grover + 1;
+ }
+ cout<<" "<<endl;
+
+ cout<<"Seventh question: Which weapon would you choose?"<<endl;
+ cout<<"1) Sword  2) Dagger   3) Reed pipes"<<endl;
+ int guess7;
+ cin>>guess7;
+ if (guess7 == 1) {
+ percy = percy + 1;
+ } else if (guess7 == 2) {
+ annabeth = annabeth + 1;
+ } else {
+ grover = grover + 1;
+ }
+ cout<<" "<<endl;
+
+ cout<<"Eight question: Which one do you prefer?"<<endl;
+ cout<<"1) Seaside  2) City   3) Mountain"<<endl;
+ int guess8;
+ cin>>guess8;
+ if (guess8 == 1) {
+ percy = percy + 1;
+ } else if (guess8 == 2) {
+ annabeth = annabeth + 1;
+ } else {
+ grover = grover + 1;
+ }
+ cout<<" "<<endl;
+
+ //cout<<"Ninth question: ?"<<endl;
+ //cout<<"1)   2)    3) "<<endl;
+ int guess9;
+ cin>>guess9;
+ if (guess9 == 1) {
+ percy = percy + 1;
+ } else if (guess9 == 2) {
+ annabeth = annabeth + 1;
+ } else {
+ grover = grover + 1;
+ }
+ cout<<" "<<endl;
+
+ //cout<<"Tenth question: ?"<<endl;
+ //cout<<"1)   2)    3) "<<endl;
+ int guess10;
+ cin>>guess10;
+ if (guess10 == 1) {
+ percy = percy + 1;
+ } else if (guess10 == 2) {
+ annabeth = annabeth + 1;
+ } else {
+ grover = grover + 1;
+ }
+ cout<<" "<<endl;
+
 
  if (percy > annabeth && percy > grover ) {
     cout<<"Your character's like Percy's! Thanks for playing!";
